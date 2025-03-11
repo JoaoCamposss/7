@@ -1,0 +1,82 @@
+1 - 
+programa {
+  funcao inicio() {
+    cadeia nome
+    cadeia nomeCidade
+    inteiro idade
+
+    escreva("Informe o seu nome:")
+    leia(nome)
+
+    escreva("informe sua cidade")
+    leia(nomeCidade)
+
+    escreva("informe sua idade")
+    leia(idade)
+
+    escreva("Nome Informado", nome, "\n")
+    escreva("Cidade Informada", nomeCidade, "\n")
+    escreva("Idade Informada", idade, "\n")
+  }
+  
+}
+
+2 - 
+programa {
+  funcao inicio() {
+    inteiro numero1
+    inteiro numero2
+    inteiro soma
+
+    escreva("Digite o primeiro numero")
+    leia(numero1)
+
+    escreva("Digite o segundo numero")
+    leia(numero2)
+
+   soma=numero1+numero2
+
+    escreva("A soma e" , soma)
+    
+
+    
+    
+  }
+}
+
+3 - 
+programa {
+  funcao inicio() {
+    real nota1
+    real nota2
+    real nota3
+    real media
+
+    escreva ("Digite a primeira nota")
+    leia(nota1)
+    escreva ("Digite a segunda nota")
+    leia(nota2)
+    escreva ("Digite a terceira nota")
+    leia(nota3)
+    media=(nota1+nota2+nota3)/3
+    escreva ("O resultado e", media)
+  }
+}
+
+4 - 
+programa {
+  funcao inicio() {
+    real base
+    real altura
+    real soma
+
+    escreva("informe a base do triangulo")
+    leia(base)
+    escreva("informe a altura do triangulo")
+    leia(altura)
+    soma=base+altura
+    escreva("a soma é ", soma)
+  }
+}
+
+5 - 
